@@ -10,7 +10,6 @@
   	<th><?php echo $this->Paginator->sort('hd', 'HDD') ?></th>
   	<th><?php echo $this->Paginator->sort('room', 'Sala') ?></th>
   	<th><?php echo $this->Paginator->sort('ip', 'IP 1') ?></th>
-  	<th><?php echo $this->Paginator->sort('ip2', 'IP 2') ?></th>
   	<th><?php echo $this->Paginator->sort('status', 'Status') ?></th>
   	<th>Ação</th>
   </tr>
@@ -26,7 +25,6 @@
   		<td><?php echo $computer['Computer']['hd']; ?></td>
   		<td><?php echo $computer['Computer']['room']; ?></td>
   		<td><?php echo $computer['Computer']['ip']; ?></td>
-  		<td><?php echo $computer['Computer']['ip2']; ?></td>
   		<td><?php 
   				if ($computer['Computer']['status'] == "Y") {
   					echo "Funcionando";

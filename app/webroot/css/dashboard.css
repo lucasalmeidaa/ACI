@@ -10,6 +10,10 @@ th, td{
   text-align: center;
 }
 
+.radioL {
+  margin-right: 2000px;
+}
+
 a.btn-lg{
   width: 100%;
 }

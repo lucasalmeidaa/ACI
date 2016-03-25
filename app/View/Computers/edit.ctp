@@ -12,7 +12,7 @@
     $this->Form->input('ip', array('class' => 'form-control', 'label' => 'IP 1' )),
     $this->Form->input('ip2', array('class' => 'form-control', 'label' => 'IP 2' )),
     $this->Form->input('room', array('class' => 'form-control', 'value' => 'Sala Vip 1' )),
-    $this->Form->input('status', array('type' => 'radio', 'options' => array('Y' => 'Funcionando'))),  
-    $this->Form->input('status', array('type' => 'radio', 'options' => array('n' => 'Quebrado ou Desativado'))),	
+
+    $this->Form->input('status', array('type' => 'radio', 'options' => array('Y' => 'Funcionando &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 'n' => 'Quebrado ou Desativado'))),   
     $this->Form->end('Atualizar', array('class' => 'form-control btn btn-primary'));
 ?>

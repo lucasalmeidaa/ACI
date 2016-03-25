@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
 				"con",
 				"cont"
 			],
@@ -52,6 +64,30 @@
 			}
 		},
 		{
+			"file": "app/Controller/ComputersController.php",
+			"settings":
+			{
+				"buffer_size": 2126,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/View/Computers/add.ctp",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/View/Computers/edit.ctp",
+			"settings":
+			{
+				"buffer_size": 1085,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "app/View/reports/add.ctp",
 			"settings":
 			{
@@ -79,15 +115,18 @@
 			"file": "app/View/Computers/index.ctp",
 			"settings":
 			{
-				"buffer_size": 2319,
+				"buffer_size": 2198,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "/*User*/\ndiv.addB{\n  float: right;\n}\ntextarea{\n  resize: none;\n}\n\nth, td{\n  text-align: center;\n}\n\n\na.btn-lg{\n  width: 100%;\n}\n\n/*\n * Base structure\n */\n\n/* Move down content because we have a fixed navbar that is 50px tall */\nbody {\n  padding-top: 50px;\n}\n\n\n/*\n * Global add-ons\n */\n\n.sub-header {\n  padding-bottom: 10px;\n  border-bottom: 1px solid #eee;\n}\n\n/*\n * Top navigation\n * Hide default border to remove 1px line.\n */\n.navbar-fixed-top {\n  border: 0;\n}\n\n/*\n * Sidebar\n */\n\n/* Hide for mobile, show later */\n.sidebar {\n  display: none;\n}\n@media (min-width: 768px) {\n  .sidebar {\n    position: fixed;\n    top: 51px;\n    bottom: 0;\n    left: 0;\n    z-index: 1000;\n    display: block;\n    padding: 20px;\n    overflow-x: hidden;\n    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */\n    background-color: #f5f5f5;\n    border-right: 1px solid #eee;\n  }\n}\n\n/* Sidebar navigation */\n.nav-sidebar {\n  margin-right: -21px; /* 20px padding + 1px border */\n  margin-bottom: 20px;\n  margin-left: -20px;\n}\n.nav-sidebar > li > a {\n  padding-right: 20px;\n  padding-left: 20px;\n}\n.nav-sidebar > .active > a,\n.nav-sidebar > .active > a:hover,\n.nav-sidebar > .active > a:focus {\n  color: #fff;\n  background-color: #428bca;\n}\n\n\n/*\n * Main content\n */\n\n.main {\n  padding: 20px;\n}\n@media (min-width: 768px) {\n  .main {\n    padding-right: 40px;\n    padding-left: 40px;\n  }\n}\n.main .page-header {\n  margin-top: 0;\n}\n\n\n/*\n * Placeholder dashboard ideas\n */\n\n.placeholders {\n  margin-bottom: 30px;\n  text-align: center;\n}\n.placeholders h4 {\n  margin-bottom: 0;\n}\n.placeholder {\n  margin-bottom: 20px;\n}\n.placeholder img {\n  display: inline-block;\n  border-radius: 50%;\n}\n",
 			"file": "app/webroot/css/dashboard.css",
+			"file_size": 1721,
+			"file_write_time": 131033404389451298,
 			"settings":
 			{
-				"buffer_size": 1684,
+				"buffer_size": 1685,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,10 +198,11 @@
 		"/E/xampp/htdocs/ACI/app/Controller",
 		"/E/xampp/htdocs/ACI/app/Model",
 		"/E/xampp/htdocs/ACI/app/View",
-		"/E/xampp/htdocs/ACI/app/View/reports"
+		"/E/xampp/htdocs/ACI/app/View/Computers"
 	],
 	"file_history":
 	[
+		"/E/xampp/htdocs/README.md",
 		"/E/xampp/htdocs/ACI/app/View/Computers/add.ctp",
 		"/E/xampp/htdocs/ACI/app/Controller/ComputersController.php",
 		"/E/xampp/htdocs/ACI/app/Model/Course.php",
@@ -231,6 +271,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hiddenField",
+			"true",
+			"value",
+			">',",
 			"computer",
 			"Computer",
 			"computer",
@@ -344,7 +388,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -360,8 +404,8 @@
 						"selection":
 						[
 							[
-								459,
-								459
+								537,
+								537
 							]
 						],
 						"settings":
@@ -373,11 +417,101 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "app/Controller/ComputersController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/View/Computers/add.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CakePHP (tmbundle)/Syntaxes/(HTML) CakePHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/View/Computers/edit.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								995,
+								995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CakePHP (tmbundle)/Syntaxes/(HTML) CakePHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "app/View/reports/add.ctp",
 					"semi_transient": false,
 					"settings":
@@ -403,11 +537,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "app/Model/Report.php",
 					"semi_transient": false,
 					"settings":
@@ -431,11 +565,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "app/View/reports/index.ctp",
 					"semi_transient": false,
 					"settings":
@@ -461,24 +595,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "app/View/Computers/index.ctp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2319,
+						"buffer_size": 2198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								2319
+								641,
+								641
 							]
 						],
 						"settings":
@@ -491,30 +625,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "app/webroot/css/dashboard.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1684,
+						"buffer_size": 1685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								124
+								99,
+								99
 							]
 						],
 						"settings":
@@ -527,11 +661,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "app/View/Layouts/default.ctp",
 					"semi_transient": false,
 					"settings":
@@ -543,8 +677,8 @@
 						"selection":
 						[
 							[
-								2747,
-								2747
+								4784,
+								4784
 							]
 						],
 						"settings":
@@ -554,14 +688,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 26985.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "app/Config/core.php",
 					"semi_transient": false,
 					"settings":
@@ -586,7 +720,7 @@
 						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
