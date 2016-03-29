@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "E:\\xampp\\htdocs\\relatorio.aci"
 		}
 	]
 }
