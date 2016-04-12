@@ -1,4 +1,4 @@
-<a href="http://127.0.0.1/ACI/notes/" title="Voltar"> <span class="glyphicon glyphicon-arrow-left"></span> Voltar</a>
+<a href="/ACI/notes/" title="Voltar"> <span class="glyphicon glyphicon-arrow-left"></span> Voltar</a>
 <hr>
 <h1>Notas</h1>
 

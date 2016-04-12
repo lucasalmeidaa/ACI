@@ -1,4 +1,4 @@
-<a href="http://127.0.0.1/ACI/courses/" title="Voltar"> <span class="glyphicon glyphicon-arrow-left"></span> Voltar</a>
+<a href="/ACI/courses/" title="Voltar"> <span class="glyphicon glyphicon-arrow-left"></span> Voltar</a>
 <hr>
 <h1>Adicionar Curso</h1>
 

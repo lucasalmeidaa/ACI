@@ -67,7 +67,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
           <form class="navbar-form navbar-right">
             <div class="col-lg-12">
 
-  <a href="http://127.0.0.1/ACI/reports/add" title="Adicionar" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> Gerar Relatório do dia</a>
+  <a href="/ACI/reports/add" title="Adicionar" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> Gerar Relatório do dia</a>
     <div class="input-group">
 
       <input type="text" class="form-control" placeholder="Buscar curso">
@@ -84,15 +84,15 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li  <?php if ($this->fetch('title') == "Home") { echo "class='active'"; } ?> ><a href="http://127.0.0.1/ACI/"> <span class="glyphicon glyphicon-home"></span> &nbsp; Inicio</a></li>
-            <li <?php if ($this->fetch('title') == "Computers" ) { echo "class='active'"; } ?>><a href="http://127.0.0.1/ACI/computers"> <span class="glyphicon glyphicon-hdd"></span> &nbsp; Computadores</a></li>
-            <li <?php if ($this->fetch('title') == "Courses") { echo "class='active'"; } ?>><a href="http://127.0.0.1/ACI/courses"> <span class="glyphicon glyphicon-book"></span> &nbsp; Cursos</a></li>
-            <li <?php if ($this->fetch('title') == "Linkeds") { echo "class='active'"; } ?>><a href="http://127.0.0.1/ACI/linkeds"> <span class="glyphicon glyphicon-link"></span> &nbsp; Vincular</a></li>
+            <li  <?php if ($this->fetch('title') == "Home") { echo "class='active'"; } ?> ><a href="/ACI/"> <span class="glyphicon glyphicon-home"></span> &nbsp; Inicio</a></li>
+            <li <?php if ($this->fetch('title') == "Computers" ) { echo "class='active'"; } ?>><a href="/ACI/computers/"> <span class="glyphicon glyphicon-hdd"></span> &nbsp; Computadores</a></li>
+            <li <?php if ($this->fetch('title') == "Courses") { echo "class='active'"; } ?>><a href="/ACI/courses"> <span class="glyphicon glyphicon-book"></span> &nbsp; Cursos</a></li>
+            <li <?php if ($this->fetch('title') == "Linkeds") { echo "class='active'"; } ?>><a href="/ACI/linkeds"> <span class="glyphicon glyphicon-link"></span> &nbsp; Vincular</a></li>
           </ul>
           <hr>
           <ul class="nav nav-sidebar">
-            <li <?php if ($this->fetch('title') == "Notes") { echo "class='active'"; } ?>><a href="http://127.0.0.1/ACI/notes"> <span class="glyphicon glyphicon-console"></span> &nbsp; Notas</a></li>
-            <li <?php if ($this->fetch('title') == "Reports") { echo "class='active'"; } ?>><a href="http://127.0.0.1/ACI/reports"> <span class="glyphicon glyphicon-open-file"></span> &nbsp; Relatórios</a></li>
+            <li <?php if ($this->fetch('title') == "Notes") { echo "class='active'"; } ?>><a href="/ACI/notes"> <span class="glyphicon glyphicon-console"></span> &nbsp; Notas</a></li>
+            <li <?php if ($this->fetch('title') == "Reports") { echo "class='active'"; } ?>><a href="/relatorio.aci/"> <span class="glyphicon glyphicon-open-file"></span> &nbsp; Relatórios</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

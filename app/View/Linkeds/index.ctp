@@ -1,5 +1,5 @@
 <div class="addB">
-	<a href="http://127.0.0.1/ACI/linkeds/add" title="Adicionar" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Adicionar Vinculos</a>
+	<a href="/ACI/linkeds/add/" title="Adicionar" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Adicionar Vinculos</a>
 </div>
 <h1>Vinculos</h1>
 <table class="table table-striped">

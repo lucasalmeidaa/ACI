@@ -1,5 +1,5 @@
 <div class="addB">
-	<a href="http://127.0.0.1/ACI/computers/add" title="Adicionar" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Adicionar Computador</a>
+	<a href="/ACI/computers/add/" title="Adicionar" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Adicionar Computador</a>
 </div>
 <h1>Computadores</h1>
 <table class="table table-striped">
